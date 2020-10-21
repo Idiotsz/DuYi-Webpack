@@ -3,7 +3,8 @@ module.exports = {
     mode: "development",
     devtool: "source-map",
     entry: {
-        index: "./src/index.js"
+        index: "./src/index.js",
+        library: "abc"
     },
     // externals: {
     //     jquery: "$",
